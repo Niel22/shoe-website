@@ -50,33 +50,26 @@ Installation
 Clone the repository
 
 
-Copy code
 git clone https://github.com/yourusername/shoe-showcasing-website.git
 Navigate to the project directory
 
-Copy code
 cd shoe-showcasing-website
 Install the dependencies
 
-Copy code
 composer install
 Set up your environment file
 
 Copy the .env.example file to .env and configure your environment variables.
 
-Copy code
 cp .env.example .env
 Generate an application key
 
-Copy code
 php artisan key:generate
 Run migrations and seed the database
 
-Copy code
 php artisan migrate --seed
 Start the development server
 
-Copy code
 php artisan serve
 The application will be accessible at http://localhost:8000.
 
