@@ -49,39 +49,33 @@ Bootstrap: CSS framework for responsive design.
 Installation
 Clone the repository
 
-bash
+
 Copy code
 git clone https://github.com/yourusername/shoe-showcasing-website.git
 Navigate to the project directory
 
-bash
 Copy code
 cd shoe-showcasing-website
 Install the dependencies
 
-bash
 Copy code
 composer install
 Set up your environment file
 
 Copy the .env.example file to .env and configure your environment variables.
 
-bash
 Copy code
 cp .env.example .env
 Generate an application key
 
-bash
 Copy code
 php artisan key:generate
 Run migrations and seed the database
 
-bash
 Copy code
 php artisan migrate --seed
 Start the development server
 
-bash
 Copy code
 php artisan serve
 The application will be accessible at http://localhost:8000.
