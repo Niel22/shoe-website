@@ -1,0 +1,9 @@
+<link rel="stylesheet" href="{{ asset('frontend/css/bootstrap.css') }}">
+<link rel="stylesheet" href="{{ asset('frontend/css/animate.css') }}">
+<link rel="stylesheet" href="{{ asset('frontend/css/swiper-bundle.css') }}">
+<link rel="stylesheet" href="{{ asset('frontend/css/slick.css') }}">
+<link rel="stylesheet" href="{{ asset('frontend/css/magnific-popup.css') }}">
+<link rel="stylesheet" href="{{ asset('frontend/css/font-awesome-pro.css') }}">
+<link rel="stylesheet" href="{{ asset('frontend/css/flaticon_shofy.css') }}">
+<link rel="stylesheet" href="{{ asset('frontend/css/spacing.css') }}">
+<link rel="stylesheet" href="{{ asset('frontend/css/main.css') }}">
