@@ -57,7 +57,7 @@ _The page where users review their order and finalize the purchase._
 
 ### Login Page  
 _A simple login page for users to access their accounts._  
-![Login Page Screenshot](documentation/login.png)
+![Login Page Screenshot](documentation/login-page.png)
 
 ### Mobile View  
 _Optimized view for users on mobile devices._  
