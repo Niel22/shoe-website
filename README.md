@@ -41,7 +41,7 @@ _A detailed list of shoe categories with thumbnails._
 
 ### Product Details Page  
 _Showcasing a product's images, details, and color/size options._  
-![Product Details Screenshot](documentation/product-details.png)
+![Product Details Screenshot](documentation/product-details-page.png)
 
 ### Cart Page  
 _An interactive cart allowing users to update quantities or remove items._  
