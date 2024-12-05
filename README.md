@@ -1,88 +1,85 @@
-Shoe Showcasing Website
-Welcome to the Shoe Showcasing Website project! This web application allows users to browse and manage a variety of shoe products, with functionalities for both customers and admins.
+# Shoe Showcasing Website
 
-Features
-Customer Side
-Login and Register: Create and manage user accounts.
-Browse Categories: View all available shoe categories.
-View Products: Browse products within categories.
-Product Filtering: Filter products by brands and price.
-Product Details: View detailed information and images for each product.
-Color Selection: Choose a color variant for products before adding to the cart.
-Quantity Adjustment: Adjust the quantity of products before adding them to the cart.
-Add to Cart: Add selected products to the shopping cart.
-Add to Wishlist: Save products to a wishlist for future reference.
-Cart Management: View and manage items in the cart.
-Wishlist Management: View and manage wishlist items.
-Checkout Process: Complete purchases through a checkout page.
-Form Validation: Ensure checkout form is filled out correctly before placing an order.
-Payment Options: Pay via Paypal or Cash on Delivery (COD).
-Order Notifications: Receive email notifications upon order placement.
-Order History: View past orders and their details.
-User Profile: Manage and update user profile.
-Change Password: Update account password.
-Admin Side
-Category Management: Create, read, update, and delete (CRUD) categories.
-Product Management:
-Add, edit, update, and delete products.
-Add multiple images and colors for each product.
-Brand Management: CRUD operations for brands associated with products.
-Color Management: CRUD operations for colors linked with products.
-Slider Management: Manage homepage sliders.
-Site Settings:
-Update basic website details.
-Manage social media links and contact/office information displayed on the frontend.
-User Management: CRUD operations with roles for managing users.
-Order Management:
-View and filter orders by date and status.
-View detailed order and user information.
-Manage invoices: view, download as PDF, and email invoices.
-Update order status (e.g., In-Progress, Completed, Pending, Cancelled).
-Dashboard Statistics:
-Overview of total, daily, monthly, and yearly orders.
-Statistics on products and users.
-Technologies Used
-Laravel: PHP framework for backend development.
-Livewire: Dynamic components for real-time updates.
-Bootstrap: CSS framework for responsive design.
+This web application allows users to browse and manage a wide range of shoe products, offering features for both customers and admins. Built with **Laravel**, **Livewire**, and **Bootstrap**, it ensures a dynamic, responsive, and user-friendly experience.
 
-Installation
-Clone the repository
+## Features
 
+### Customer Side
+- **User Authentication**: Login and register.
+- **Browse Categories**: View shoe categories.
+- **View Products**: See products under specific categories.
+- **Filter Products**: Filter by brand and price.
+- **Product Details**: View images, descriptions, and prices.
+- **Color Selection**: Choose color variants.
+- **Quantity Adjustment**: Adjust product quantity before checkout.
+- **Add to Cart/Wishlist**: Save items for purchase or future reference.
+- **Manage Cart/Wishlist**: Update or remove items.
+- **Checkout**: Pay via **Paystack** or **Cash on Delivery (COD)**.
+- **Order Notifications**: Email notifications for orders.
+- **Order History**: View details of previous purchases.
+- **User Profile**: Manage account details and change password.
 
-git clone https://github.com/yourusername/shoe-showcasing-website.git
-Navigate to the project directory
+### Admin Side
+- **Category Management**: Add, edit, delete categories.
+- **Product Management**: Manage products, including multiple images and colors.
+- **Brand and Color Management**: CRUD operations for brands and colors.
+- **Slider Management**: Manage homepage sliders.
+- **Site Settings**: Configure website details, social media links, and contact info.
+- **User Management**: Manage users and roles.
+- **Order Management**: Track, update, and manage orders and invoices.
+- **Dashboard Statistics**: View sales, product, and user statistics.
 
-cd shoe-showcasing-website
-Install the dependencies
+## Designs and Screenshots
 
-composer install
-Set up your environment file
+### Home Page  
+_A visually appealing homepage featuring a slider showcasing promotions._  
+![Home Page Screenshot](documentation/homepage.png)
 
-Copy the .env.example file to .env and configure your environment variables.
+### Product Listing Page  
+_A detailed list of shoe categories with thumbnails._  
+![Product Listing Page Screenshot](documentation/product-listing-page.png)
 
-cp .env.example .env
-Generate an application key
+### Product Details Page  
+_Showcasing a product's images, details, and color/size options._  
+![Product Details Screenshot](documentation/product-details.png)
 
-php artisan key:generate
-Run migrations and seed the database
+### Cart Page  
+_An interactive cart allowing users to update quantities or remove items._  
+![Cart Page Screenshot](documentation/shopping-cart.png)
 
-php artisan migrate --seed
-Start the development server
+### User Account Page  
+_Manage user account details._  
+![User Account Screenshot](documentation/user-account-page.png)
 
-php artisan serve
-The application will be accessible at http://localhost:8000.
+### Checkout Page  
+_The page where users review their order and finalize the purchase._  
+![Checkout Page Screenshot](documentation/checkout-page.png)
 
-Contributing
-To contribute:
+### Login Page  
+_A simple login page for users to access their accounts._  
+![Login Page Screenshot](documentation/login.png)
 
-Fork the repository.
-Create a new branch for your changes.
-Commit your changes and push to your fork.
-Open a pull request.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+### Mobile View  
+_Optimized view for users on mobile devices._  
+![Mobile View Screenshot](documentation/mobile-view.png)
 
-Contact
-For questions or feedback, contact niel2264@gmail.com.
+### Admin Dashboard  
+_Insights into orders, products, and user statistics._  
+![Admin Dashboard Screenshot](documentation/admin-dashboard.png)
 
+## Technologies Used
+- **Laravel**: Backend framework.
+- **Livewire**: Real-time dynamic components.
+- **Bootstrap**: Responsive front-end framework.
+
+## Contributing
+1. Fork the repository.
+2. Create a branch for your changes.
+3. Commit and push your changes.
+4. Open a pull request.
+
+## License
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+For questions or feedback, reach out to **niel2264@gmail.com**.
