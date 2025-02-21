@@ -22,7 +22,7 @@
                         <td>{{ $user->email_verified_at ? 'Verified' : 'Not Verified' }}</td>
                         <td>{{ $user->is_admin ? 'Admin' : 'User' }}</td>
                         <td>{{ $user->ViewAllOrder->count() }}</td>
-                        <td>{{ $user->created_at->format('d D M, Y') }}</td>
+                        <td>{{ $user->created_at?->format('d D M, Y') }}</td>
                         <td>
                             <a class="btn btn-sm btn-dark btn-icon-text"
                                 href="javascript:void(0)">Edit

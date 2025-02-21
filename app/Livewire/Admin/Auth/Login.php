@@ -24,8 +24,7 @@ class Login extends Component
 
         $user = $this->validate();
 
-
-
+        
         if (Auth::attempt($user)) {
             session()->regenerate();
 
