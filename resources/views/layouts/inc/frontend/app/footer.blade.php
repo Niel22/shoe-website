@@ -9,7 +9,7 @@
                          <div class="tp-footer-logo">
                             <a href="index.html">
                                {{-- <img src="{{ asset('frontend/img/logo/logo.svg') }}" alt="logo"> --}}
-                               <h4>BERRY SHOES</h4>
+                               <h4>WomarkBuy</h4>
                             </a>
                          </div>
                          <p class="tp-footer-desc">Explore our curated collection of shoes, showcasing a range of styles for every occasion. From classic wingtips to trendy sneakers, find the perfect pair crafted with premium materials and expert craftsmanship to elevate your style and comfort.                         </p>

@@ -10,7 +10,7 @@
           <div class="col-xl-6 col-lg-8">
              <div class="tp-login-wrapper">
                 <div class="tp-login-top text-center mb-30">
-                   <h3 class="tp-login-title">Sign Up Berry Shoes.</h3>
+                   <h3 class="tp-login-title">Sign Up WomarkBuy.</h3>
                    <p>Already have an account?  <span><a href="{{ url('/login') }}">Log In</a></span></p>
                 </div>
                 <form wire:submit="create" method="post">

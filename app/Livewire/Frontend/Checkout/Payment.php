@@ -56,6 +56,8 @@ class Payment extends Component
             Order::where('id', $this->order_id)->update([
                 'reference' => $this->reference
             ]);
+
+            // dd($authorizationUrl->url);
             return redirect($authorizationUrl->url);
 
         }catch(\Exception $e) {
@@ -72,7 +74,7 @@ class Payment extends Component
         // dd(paystack()->getAllTransactions());
         try {
 
-            $paystack = 'pk_test_778f7703f4128fafa6cd6e3aa2fac8434b69004f';
+            $paystack = env('PAYSTACK_SECRET_KEY');
 
             // dd($this->reference);
             // Make a GET request to Paystack's verify endpoint
@@ -84,7 +86,7 @@ class Payment extends Component
             // Decode the response
             $paymentDetails = $response->json();
 
-            if ($paymentDetails['data']['gateway_response'] === "Successful") {
+            if ($paymentDetails['data']['gateway_response'] == "Successful") {
                 // dd($this->order_id);
 
                 $order->update([
@@ -92,7 +94,7 @@ class Payment extends Component
                 ]);
 
                 $data = [
-                    'url' => "http://127.0.0.1:8000/track-order/". $order->tracking_no,
+                    'url' => url("/track-order"). '/'. $order->tracking_no,
                     'total_price' => $order->total_price
                 ];
                 Mail::to(Auth::user()->email)->send(new OrderPlaced($data));

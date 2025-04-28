@@ -9,7 +9,7 @@
                       <path d="M81 14.5798C0.890564 -8.05914 -5.81154 0.0503902 5.00322 21" stroke="currentColor" stroke-opacity="0.3" stroke-width="2" stroke-miterlimit="3.8637" stroke-linecap="round"/>
                    </svg>
                 </span>
-                <h3 class="tp-section-title-2">Popular on the Berry Shoes store.</h3>
+                <h3 class="tp-section-title-2">Popular on the WomarkBuy store.</h3>
              </div>
           </div>
        </div>

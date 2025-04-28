@@ -2,10 +2,10 @@
     <div class="navbar-brand-wrapper d-flex justify-content-center">
 <div class="navbar-brand-inner-wrapper d-flex justify-content-between align-items-center w-100">
   <a class="navbar-brand brand-logo" href="{{ route('dashboard') }}">
-    Berry Shoes
+    WomarkBuy
   </a>
   <a class="navbar-brand brand-logo-mini" href="{{ route('dashboard') }}">
-    Berry Shoes
+    WomarkBuy
   </a>
   <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
     <span class="mdi mdi-sort-variant"></span>

@@ -23,7 +23,7 @@
           <div class="col-lg-4 mx-auto">
             <div class="auth-form-light text-left py-5 px-4 px-sm-5">
               <div class="brand-logo">
-                <h3>Berry Shoes</h3>
+                <h3>WomarkBuy</h3>
               </div>
               <h6 class="font-weight-light">Signing up is easy. It only takes a few steps</h6>
               <form action="{{ route('login.create') }}" method="post" class="pt-3">
