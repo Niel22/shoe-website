@@ -30,8 +30,8 @@
            <div class="offcanvas__content">
               <div class="offcanvas__top mb-70 d-flex justify-content-between align-items-center">
                  <div class="offcanvas__logo logo">
-                    <a href="index.html">
-                       <img src="{{ asset('frontend/img/logo/logo.svg') }}" alt="logo">
+                    <a href="{{ route('home') }}">
+                     <h4>WomarkBuy</h4>
                     </a>
                  </div>
               </div>

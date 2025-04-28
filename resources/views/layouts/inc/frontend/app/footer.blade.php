@@ -68,7 +68,7 @@
                                   </span>
                                </div>
                                <div class="tp-footer-contact-content">
-                                  <p><a href="mailto:berryshoes@support.com">berryshoes@gmail.com</a></p>
+                                  <p><a href="mailto:niel2264@gmail.com">niel2264@gmail.com</a></p>
                                </div>
                             </div>
                             <div class="tp-footer-contact-item d-flex align-items-start">
